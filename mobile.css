@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px){
+    img {height: 70px;}
+    body{background-color: black;}
+    #navbar{display: flex; background-color: rgb(0,0,0); font-size: medium;padding-bottom: 5px;position: static;}
+    .navbarcont{margin-left: 20px;text-decoration: none; color: white;padding: 1px; line-height: 40px; margin-right: 1px;
+    }
+    .navbarcont:hover{cursor: pointer; color: chartreuse; border-style: solid; border-color: white;padding: 3px; border-radius: 5px;border-width: 1px;}
+#sign{border-style: none; border-radius: 60px; padding: 5px; text-align: center;font-size: small;}
+#sign:hover{border-style: solid; border-radius: 60px; padding: 10px; text-align: center;font-size: small;border-color: chartreuse;}
+#cont{padding-top: 5px;}
+    video{width: 100%;display: flex; position: absolute;}
+    #bannertext{position: absolute; margin-left: 5px; margin-top: 15%; text-align: center; font-size:small; color: white; margin-left: 5px;margin-right: 5px;}
+    h1{font-size: medium;}
+    #head{text-align: center; padding-top: 60px; font-size: small;margin: 8px;}
+    #contents{background-color: black;margin-top: 56%; color: white; text-align: left}
+    .miss{padding-left: 20px; padding-top: 50px;}
+
+#contactinfo{background-color: black; color: white;}
+#coninfo{display: inline;}
+#youwill{padding: 5px; font-size: medium;border-style: solid; border-color: wheat;border-radius: 12px;margin-left: 40px;margin-right: 40px; text-align: center;}
+#wewill{padding: 5px; font-size: medium;border-style: solid; border-color: wheat;border-radius: 12px;margin-right: 40px;margin-left: 40px;text-align: center;
+    margin-top: 50px;
+line-height: 40px;}
+#ff{font-size: small;}
+input{font-size: 20px; width: 250px;border-style: none; border-radius: 2px;}
+#services{font-size: 15px; width: 150px;border-style: none; border-radius: 10px;}
+button{font-size: 15px; padding: 10px;width: 150px;}
+textarea{font-size: 20px; width: 100px;border-style: none; border-radius: 10px; width: 200px;}
+button:hover{cursor: pointer; color: antiquewhite;background-color: blue;border-color: gold;border-radius: 5px;}
+.eml{color: aqua;text-decoration: none;}
+
+#formholder{display: block;
+    line-height: 20px; 
+    border-style: solid; 
+    border-color: white; 
+    padding: 10px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 75px;
+    align-items: center; 
+    text-align: center;
+    border-radius: 10px;
+    }
+#partnermessage{display: inline-block; padding: 10px; border-style: double; margin-left: 10px; margin-right: 10px; margin-bottom: 40px;
+padding-top: 30px;}
+.partnerimage{font-size: small; padding-left: 5px; padding-right: 5px; text-align: center; text-align: center; margin-top: 10px;}
+#im1{height: 250px;}}

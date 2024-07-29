@@ -1,0 +1,50 @@
+*{margin: 0px; padding: 0px; font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;}
+#navbar{display: flex; background-color: rgb(0,0,0); font-size: large;}
+img {height: 100px;}
+video{width: 100%;display: flex; position: absolute;}
+.navbarcont{margin-left: 150px;text-decoration: none; color: white;padding: 5px}
+.navbarcont:hover{cursor: pointer; color: chartreuse; border-style: solid; border-color: white;padding: 5px; border-radius: 10px;border-width: 2px;}
+#sign{border-style: solid; border-radius: 60px; padding: 10px; text-align: center;font-size: small;}
+#sign:hover{border-style: solid; border-radius: 60px; padding: 10px; text-align: center;font-size: small;border-color: chartreuse;}
+#cont{padding-top: 40px;}
+#bannertext{position: absolute; margin-left: 20px; margin-top: 20%; text-align: center; font-size: xx-large; color: white;}
+#head{text-align: center; padding-top: 40px; font-size: larger;}
+#contents{background-color: black;margin-top: 56%; color: white; text-align: justify}
+.miss{padding-left: 50px; padding-top: 50px;}
+ul,ol,li{font-size: large; text-align: left; padding-right: 30px;}
+#mess{text-align: left; justify-content: center;background-color: darkslategray; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;}
+
+/* Contact Us page */
+#contactinfo{background-color: black; color: white;}
+#coninfo{display: flex;}
+#youwill{padding: 100px; font-size: large;border-style: solid; border-color: wheat;border-radius: 100px;margin-left: 40px;margin-right: 40px; text-align: center;}
+#wewill{padding: 100px; font-size: large;border-style: solid; border-color: wheat;border-radius: 100px;margin-right: 40px;margin-left: 40px;text-align: center;
+line-height: 40px;}
+#ff{font-size: larger;}
+input{font-size: 20px; width: 350px;border-style: none; border-radius: 2px;}
+#services{font-size: 20px; width: 350px;border-style: none; border-radius: 10px;}
+button{font-size: 20px; padding: 10px;width: 200px;}
+textarea{font-size: 20px; width: 350px;border-style: none; border-radius: 10px; width: 550px;}
+button:hover{cursor: pointer; color: antiquewhite;background-color: blue;border-color: gold;border-radius: 5px;}
+.eml{color: aqua;text-decoration: none;}
+
+/* Sign In Page */ /* Sign Up Page */
+#ss{background-color: black;}
+
+#formholder{display: block;
+    line-height: 20px; 
+    border-style: solid; 
+    border-color: white; 
+    padding: 30px;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-top: 100px;
+    align-items: center; 
+    text-align: center;
+    border-radius: 10px;
+    background-color: coral;
+    }
+
+#partnermessage{display: flex; padding: 50px; border-style: double; margin-left: 100px; margin-right: 100px; margin-bottom: 40px;}
+.partnerimage{font-size: small; padding-left: 30px; padding-right: 30px; text-align: center; text-align: justify;}
+#im1{height: 200px;}
