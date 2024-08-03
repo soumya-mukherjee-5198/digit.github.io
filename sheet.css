@@ -48,3 +48,8 @@ button:hover{cursor: pointer; color: antiquewhite;background-color: blue;border-
 #partnermessage{display: flex; padding: 50px; border-style: double; margin-left: 100px; margin-right: 100px; margin-bottom: 40px;}
 .partnerimage{font-size: small; padding-left: 30px; padding-right: 30px; text-align: center; text-align: justify;}
 #im1{height: 200px;}
+
+#res {width: auto;
+color: greenyellow;
+font-size: medium;
+padding-bottom: 5rem;}
