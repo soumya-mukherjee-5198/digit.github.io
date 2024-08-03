@@ -30,32 +30,35 @@
             <h6>Phone Number: +91 9903755333</h6><br><br>
         </div>
         <div id="wewill">
-        <form id="ff">Or Submit Your Details So we can Get in Touch with You<br>
-            <input type="text" placeholder="Enter your name"><br>
-            <input type="text" placeholder="Enter your Mobile number"><br>
-            <input type="text" placeholder="Enter your Address"><br>
+            <p id="res"></p>
+        <form id="dataForm" method="post">Or Submit Your Details So we can Get in Touch with You<br>
+            <input type="text" placeholder="Enter your name" id="name" name ="name" required><br>
+            <input type="text" placeholder="Enter your Mobile number" id="mobile" name="mobile" required><br>
+            <input type="email" placeholder="Enter your Email Address" id="email" name = "email"required><br>
+            <input type="text" placeholder="Enter your Address" id ="address" name="address" required><br>
             <label>Enter Your Request For Your Services</label><br>
-            <select id="services">
-                <option value="1">Office IT AMC Contract</option>
-                <option value="2">Entire Network Solution & Configuration</option>
-                <option value="3">Web Services</option>
-                <option value="4">Database Management</option>
-                <option value="5">From-End Development</option>
-                <option value="5">Back End Development</option>
-                <option value="7">Full-Stack Development</option>
-                <option value="8">Hardware Maintainence</option>
-                <option value="9">Hardware Repair</option>
-                <option value="10">ISP Services</option>
-                <option value="11">Firwall Sales & Configuration</option>
-                <option value="12">Nwtwork Cabeling</option>
-                <option value="13">Entire CCTV Solutions</option>
-                <option value="14">Server Configuration & Support</option>
-                <option value="15">Firwall Sales & Configuration</option>
-                <option value="16">EPABX & IP PBX Support & Sales</option>
+            <select id="services" name = "services" required>
+                <option value="Office IT AMC Contract">Office IT AMC Contract</option>
+                <option value="Entire Network Solution & Configuration">Entire Network Solution & Configuration</option>
+                <option value="Web Services">Web Services</option>
+                <option value="Database Management">Database Management</option>
+                <option value="Front-End Development">Front-End Development</option>
+                <option value="Back End Development">Back End Development</option>
+                <option value="Full-Stack Development">Full-Stack Development</option>
+                <option value="Hardware Maintainence">Hardware Maintainence</option>
+                <option value="Hardware Repair">Hardware Repair</option>
+                <option value="ISP Services">ISP Services</option>
+                <option value="Firwall Sales & Configuration">Firwall Sales & Configuration</option>
+                <option value="Network Cabeling">Network Cabeling</option>
+                <option value="Entire CCTV Solutions">Entire CCTV Solutions</option>
+                <option value="Server Configuration & Support">Server Configuration & Support</option>
+                <option value="Firwall Sales & Configuration">Firwall Sales & Configuration</option>
+                <option value="EPABX & IP PBX Support & Sales">EPABX & IP PBX Support & Sales</option>
             </select><br><br>
-            <textarea id="textbox" rows="5" cols="70" placeholder="Enter Your Requirements"></textarea><br>
-            <button type="submit">Submit</button>
+            <textarea id="comment" name ="comment" rows="5" cols="70" placeholder="Enter Your Requirements"></textarea><br>
+            <button type="submit" id="btn">Submit</button>
         </form></div>
     </div><br><br><br><br>
+    <script src="script.js"></script>
 </body>
 </html>
